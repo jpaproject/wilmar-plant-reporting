@@ -1,0 +1,3 @@
+20201112124501
+SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "feedmills_ticket_unique"
+DETAIL:  Key (ticket)=(20110316) already exists. (SQL: insert into "feedmills" ("ticket", "itemno", "datein", "dateout", "timein", "timeout", "nett", "start_tstamp", "end_tstamp") values (20110316, 294_064100                                                                                                                                                                                                                                                                                                  , 2020-11-12, 2020-11-12, 08:01:38, 11:42:09, 45460, 2020-11-12 08:01:38, 2020-11-12 11:42:09))
